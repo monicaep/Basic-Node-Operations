@@ -47,7 +47,7 @@ const commandLibrary = {
       if (err) throw err;
       done(data);
     });
-  }
+  },
 
   "head": function(fullPath) {
     const fileName = fullPath[0];
